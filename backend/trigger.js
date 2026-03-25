@@ -115,6 +115,7 @@ export function SuscribirCorreoPilaricaNews(widget, user, lastname){
     const correo = document.getElementById(widget);
     const usuario = document.getElementById(user);
     const apellido = document.getElementById(lastname);
+    
     // extraer el valor de la casilla y enviarlo al modelo
     formulario.guardarCorreoEnElServidor(correo.value, usuario.value, apellido.value);
 }
