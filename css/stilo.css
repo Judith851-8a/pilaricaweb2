@@ -244,13 +244,11 @@ box-shadow: 0px 11px 25px -6px rgba(0,0,0,0.65);
 -moz-box-shadow: 0px 11px 25px -6px rgba(0,0,0,0.65);
 }
 .fondo{
-
 margin-top: -10%;
 background-color: #FFF9F4;
-
 }
 .fondo-articulo{
-margin-top: -2%;
+margin-top: 0%;
 background-color: #FFF9F4;
 }
 .fondo-art-individual{
@@ -891,9 +889,10 @@ margin-bottom: 5%;
 font-family: "Dancing Script", bold;
 font-size: 150px;
 font-weight: 800;
-color: #103C7B;
+color: white;
 text-align: center;
 margin-top: 15%;
+
 /* text-shadow:
 -5px -5px 0 #FFF9F4,
 3px -3px 0 #FFF9F4,
