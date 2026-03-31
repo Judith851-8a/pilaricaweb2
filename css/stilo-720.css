@@ -5,24 +5,16 @@
   .tab-1-image {
     display: none;
   }
- 
- /*  .edit-img-yoga {
-   display: none;
-  } */
-
 }
 @media screen and (max-width: 768px) {
   .tab-1-image {
     display: none;
   }
- /*  .edit-img-yoga {
-   display: none;
-  } */
 }
 
 @media screen and (max-width: 768px) {
 
-    .title-2 {
+  .title-2 {
     font-size: 50px;
     background-color: #FFF9F4;
     margin-top: -15%;
@@ -83,13 +75,20 @@
       text-align: justify;
       /* padding: 2px -15px 15px -15px; */
   }
- /*  .edit-img-yoga {
-   display: none;
-  } */
+
+  .info-somos-3-prin{
+    font-size: 20px;
+    font-weight: 400;
+    color: #0F1E53;
+    text-align: justify;
+    margin-top: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
 }
 
 @media screen and (max-width: 480px) {
-  
 
   .title-2 {
   font-size: 50px;
@@ -98,8 +97,6 @@
    display: none;
   } */
 }
-
-
 
 /* Estructura responsiva nosotros */
 @media screen and (max-width: 768px) {
@@ -286,7 +283,6 @@
     margin-top: -25%;
   } */
 }
-
 
 /* Estilo de vista producto individual */
 

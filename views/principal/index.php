@@ -35,7 +35,7 @@
 </header>
 <div class="sect-mision-prin px-5 f-1-prin">
     <div class="row justify-content-center">
-        <div class="col-lg-12 col-xxl-6">
+        <div class="col-lg-6">
             <div class="text-center my-5">
                 <p class="info-tit-1-prin">Más de cuatro</p>
                 <p class="info-tit-2-prin"><span class="txt-dec">décadas</span></p>
@@ -47,79 +47,13 @@
                 <button type="button" class="btn btn-warning">Conoce más</button>
             </div>
         </div>
-        <div class="col-lg-12 col-xxl-6">
+        <div class="col-lg-6 col-xxl-6">
             <div class="text-center my-5">
-                <img src="<?= base_url ?>assets/new-cheese/banners/cuatro-anos-de-02.png" alt="" width="100"
-                    height="650" class="info-somos-2">
+                <img src="<?= base_url ?>assets/new-cheese/banners/cuatro-anos-de-02.png" alt="" width="100" height="650" class="info-somos-2">
             </div>
         </div>
     </div>
 </div>
-<!-- <section class="fondo tab-2 py-5">
-    <div class="py-3">
-        <div class="fondo container px-5 my-5">
-            <div class="row gx-5 text-justify">
-                <div class="col-lg-12 col-xl-12">
-                    <div class="text-center">
-                        <p class="title-2 dancing-script-bold wow animated bounceInLeft " data-wow-delay="2s"> Somos una
-                            empresa mexicana </p>
-                        <p class="title-info">Ubicada en Ixtapaluca, Estado de México</p>
-                        <div class="title-info-2 mb-4 wow animated zoomIn" data-wow-delay="0.5s">
-                            "En La Pilarica elaboramos quesos artesanales desde 1980, nuestro compromiso con la calidad
-                            y el sabor auténtico nos
-                            ha convertido en una tradición que se comparte de generación en generación, llevando a cada
-                            mesa un producto lleno de historia, pasión y confianza."
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img class=" img-logo-tiempo"
-                                src="<?= base_url ?>assets/new-cheese/logos/Logo-aniversario.png" alt="..." />
-                            <div class="fw-bold texto-fidel">
-                                Sr. Fidel Alfaro
-                                <span class="fw-bold text-primary mx-1">/</span>
-                                Fundador Lácteos La Pilarica
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-<!-- 
-<section class="stilo-section-prod-fav text-center">
-    <div class="px-5 my-5 stilo-prod-fav">
-        <div class="row">
-            <div class="col-lg-12">
-                <p class="tit-prod-fav">Los más favoritos</p>
-                <p class="tit-prod-fav-1">Elaborados de forma 100% artesanal</p>
-            </div>
-            <div class="col-lg-4">
-                <div class="mx-auto mb-5 mb-lg-0">
-                    <img class="img-fluid rounded-circle mb-3"
-                        src="<?= base_url ?>assets/new-cheese/panela/Panela-1k-favoritos.png" alt="queso-oaxaca-1kg" />
-                    <p class="subtit-prod-fav">Queso Panela</p>
-                    <P class="subtit-prod-fav-1">Encuéntralo en presentaciones .300gr, 1 Kg y 2.7 Kg.</P>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="mx-auto mb-5 mb-lg-0">
-                    <img class="img-fluid rounded-circle mb-3"
-                        src="<?= base_url ?>assets/new-cheese/oaxaca/Oaxaca-1kg-favoritos.png" alt="..." />
-                    <p class="subtit-prod-fav">Queso Oaxaca</p>
-                    <p class="subtit-prod-fav-1">Encuéntralo en presentaciones .500gr, 1 Kg y Granel 3.3 Kg.</p>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                    <img class="img-fluid rounded-circle mb-3"
-                        src="<?= base_url ?>assets/new-cheese/crema/Crema-favoritos.png" alt="..." />
-                    <p class="subtit-prod-fav">Crema</p>
-                    <p class="subtit-prod-fav-1">Encuéntrala en presentaciones .200gr, .500gr, 1 Kg y 4.5 Kg.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
 <script type="module">
     import * as random from '<?= base_url ?>js/random.js';
 </script>
@@ -128,7 +62,6 @@
         <h1 class="subtit-prod-fav-3">Sabor con historia</h1>
     </div>
     <div class="card-carousel" id="contenedorCarrucelProductos">
-
         <div class="card">
             <div class="image-container" onclick="window.location.href='../Principal/index'">
                 <img src="../assets/new-cheese/default.png" alt="Error categoria">
