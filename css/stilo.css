@@ -377,14 +377,40 @@ text-align: center;
 margin-top: -8%;
 background-color: #FFF9F4;
 }
-.subtit-prod-fav-3{
+.subtit-prod-fav-3-1{
 font-family: "Lexend", sans-serif;
 font-size: 15%;
 color: #103C7B;
-margin-top: 1%;
+margin-top: 5%;
 font-weight: 800;
 
 }
+.subtit-prod-fav-3-2{
+font-family: "Lexend", sans-serif;
+font-size: 15%;
+color: #103C7B;
+margin-top: 5%;
+font-weight: 800;
+
+}
+.subtit-prod-fav-3-3{
+font-family: "Lexend", sans-serif;
+font-size: 15%;
+color: #103C7B;
+margin-top: 5%;
+font-weight: 800;
+
+}
+.subtit-prod-fav-3-4{
+font-family: "Lexend", sans-serif;
+font-size: 15%;
+color: #103C7B;
+margin-top: 5%;
+font-weight: 800;
+
+}
+
+
 .subtit-prod-fav-5{
 font-family: "Lexend", sans-serif;
 font-size: 12%;
@@ -407,6 +433,15 @@ padding-right: 20%;
 font-family: "Lexend", sans-serif;
 font-size: 10%;
 color: #FFF9F4;
+}
+.subtit-prod-fav-6{
+font-family: "Lexend", sans-serif;
+font-size: 450%;
+color: #103C7B;
+text-align: center;
+margin-top: -20%;
+margin-bottom: 5%;
+
 }
 .cuadro-1{
 padding-left: 35%;

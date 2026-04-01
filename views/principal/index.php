@@ -47,9 +47,9 @@
                 <button type="button" class="btn btn-warning">Conoce más</button>
             </div>
         </div>
-        <div class="col-lg-6 col-xxl-6">
-            <div class="text-center my-5">
-                <img src="<?= base_url ?>assets/new-cheese/banners/cuatro-anos-de-02.png" alt="" width="100" height="650" class="info-somos-2">
+        <div class="col-lg-6 "><!-- col-xxl-6 --> 
+            <div class="text-center info-somos-10"><!-- my-5 -->
+                <img src="<?= base_url ?>assets/new-cheese/banners/cuatro-anos-de-02.png" alt="" class="info-somos-2">
             </div>
         </div>
     </div>
@@ -59,7 +59,7 @@
 </script>
 <section class="fondo-carrucel-prod">
     <div>
-        <h1 class="subtit-prod-fav-3">Sabor con historia</h1>
+        <h1 class="subtit-prod-fav-6">Conoce nuestra variedad de productos</h1>
     </div>
     <div class="card-carousel" id="contenedorCarrucelProductos">
         <div class="card">
@@ -89,7 +89,7 @@
                 <!--  px-5 my-5 -->
                 <div class="mx-auto">
                     <!-- mb-5 mb-lg-0 -->
-                    <p class="subtit-prod-fav-3">Sabor con historia</p>
+                    <p class="subtit-prod-fav-3-1"><span class="txt-dec">Sabor con historia</span></p>
                     <p class="subtit-prod-fav-4">
                         <!-- px-5 my-5 -->
                         En La Pilarica cuidamos cada etapa del proceso para ofrecer productos
@@ -107,7 +107,7 @@
                 <!--  px-5 my-5 -->
                 <div class="cuadro-1 ">
                     <!-- mb-5 mb-lg-0 -->
-                    <p class="subtit-prod-fav-3">
+                    <p class="subtit-prod-fav-3-2">
                         <span class="txt-dec-1">Calidad y origen</span></p>
                     <p class="subtit-prod-fav-5">en la materia prima</p>
                     <p class="subtit-prod-fav-4">
@@ -121,7 +121,7 @@
                 <!--  px-5 my-5 -->
                 <div class="">
                     <!-- mb-5 mb-lg-0 -->
-                    <p class="subtit-prod-fav-3"> <span class="txt-dec-1">Sabor auténtico</span></p>
+                    <p class="subtit-prod-fav-3-3"> <span class="txt-dec-1">Sabor auténtico</span></p>
                     <p class="subtit-prod-fav-4 ">
                         <!-- px-5 my-5 -->
                         Un sabor que se logra al cuidar el origen, respetar los procesos y mantener viva la tradición.
@@ -132,7 +132,7 @@
                 <!--  px-5 my-5 -->
                 <div class="mx-auto">
                     <!-- mb-5 mb-lg-0 -->
-                    <p class="subtit-prod-fav-3"> <span class="txt-dec-1">Hecho en México</span></p>
+                    <p class="subtit-prod-fav-3-4"> <span class="txt-dec-1">Hecho en México</span></p>
                     <p class="subtit-prod-fav-4 ">
                         <!-- px-5 my-5 -->
                         Somos una empresa orgullosamente Mexicana, ubicada en Ixtapaluca, Estado de México con 4
