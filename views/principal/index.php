@@ -40,15 +40,17 @@
                 <p class="info-tit-1-prin">Más de cuatro</p>
                 <p class="info-tit-2-prin"><span class="txt-dec-0">décadas</span></p>
                 <p class="info-tit-3-prin">de sabor y tradición</p>
-                <p class="info-somos-3-prin">Somos una empresa mexicana que nace del amor por el queso artesanal. Desde
-                    Ixtapaluca, Estado de México, llevamos más de cuatro décadas transformando tradición y experiencia
-                    en productos que llegan a la mesa de muchas familias.
+                <p class="info-somos-3-prin">
+                    Somos una empresa mexicana que nace del amor por el queso artesanal. Desde
+                    Ixtapaluca, Estado de México, llevamos más de cuatro décadas transformando tradición y experiencia en productos que llegan a la mesa de muchas familias.
                 </p>
                 <button type="button" class="btn btn-warning">Conoce más</button>
             </div>
         </div>
-        <div class="col-lg-6 "><!-- col-xxl-6 --> 
-            <div class="text-center info-somos-10"><!-- my-5 -->
+        <div class="col-lg-6 ">
+            <!-- col-xxl-6 -->
+            <div class="text-center info-somos-10">
+                <!-- my-5 -->
                 <img src="<?= base_url ?>assets/new-cheese/banners/cuatro-anos-de-02.png" alt="" class="info-somos-2">
             </div>
         </div>
@@ -87,7 +89,8 @@
         <div class="row">
             <div class="col-lg-12">
                 <!--  px-5 my-5 -->
-                <div class="text-center my-5">  <!-- mx-auto -->
+                <div class="text-center my-5">
+                    <!-- mx-auto -->
                     <!-- mb-5 mb-lg-0 -->
                     <p class="subtit-prod-fav-3-1">
                         <span class="txt-dec">Sabor con historia</span></p>
@@ -145,25 +148,27 @@
     </div>
 </section>
 <section class="cont-color">
-    <div class="ps-md-0 cont-1-2"><!-- ps-md-0 -->
-        <div class="row"><!-- g-0 -->
+    <div class="ps-md-0 cont-1-2">
+        <!-- ps-md-0 -->
+        <div class="row">
+            <!-- g-0 -->
             <h3 class="title-mens text-center">
-                ¿Te interesa formar parte de la red de  <span class="txt-dec-1"> distribución</span> Pilarica?
+                ¿Te interesa formar parte de la red de <span class="txt-dec-1"> distribución</span> Pilarica?
             </h3>
-
             <div class="col-lg-6 bg-image">
                 <p class="title-mens-1">
                     Comunícate con nosotros
                 </p>
                 <p class="title-mens-2">
-                ¿Te interesa formar parte de la red de distribución de La Pilarica?
+                    ¿Te interesa formar parte de la red de distribución de La Pilarica?
                 </p>
                 <p class="title-mens-3">
-                    Si estás interesado en distribuir nuestros productos o deseas compartirnos una opinión o sugerencia, este espacio es para ti.
+                    Si estás interesado en distribuir nuestros productos o deseas compartirnos una opinión o sugerencia,
+                    este espacio es para ti.
                 </p>
             </div>
             <div class="col-lg-6 cont-1-3">
-                 <div class="login d-flex align-items-center py-5">
+                <div class="login d-flex align-items-center py-5">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-9 col-lg-8 mx-auto">
@@ -235,8 +240,8 @@
                                 </form>
                                 <div class="row g-3">
                                     <div class="col-md-12" style="margin-top: 40px;">
-                                        <button class="btn btn-warning" name="BotonEnviarQS"
-                                            id="BotonEnviarQS">Enviar prueba</button>
+                                        <button class="btn btn-primary" name="BotonEnviarQS"
+                                            id="BotonEnviarQS">Enviar</button>
                                     </div>
                                 </div>
                             </div>

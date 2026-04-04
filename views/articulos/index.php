@@ -1,153 +1,161 @@
-
- <!-- Header-->
-        <header class="masthead3 py-5 fondo" id="banner-producto">
-            <div class="container px-4 px-lg-5 my-5">
+<header class="masthead3 py-5 fondo" id="banner-producto">
+    <div class="container px-4 px-lg-5 my-5">
+    </div>
+</header>
+<section class="fondo-articulo">
+    <div class="container px-4 px-lg-5 fondo-art-individual">
+        <div class="row gx-4 gx-lg-5 align-items-center my-5 fondo-art-individual-1">
+            <div class="col-lg-7 text-center fondo-art-individual-1">
+                <img class="img-fluid rounded mb-4 mb-lg-0" src="" alt="..." style="width:100%"
+                    id="ImagenProducto_Producto" oncontextmenu="return false;" draggable="false" />
             </div>
-        </header> 
-        <section class="fondo-articulo">
-        <div class="container px-4 px-lg-5 fondo-art-individual">
-            <div class="row gx-4 gx-lg-5 align-items-center my-5 fondo-art-individual-1">
-                <div class="col-lg-7 text-center fondo-art-individual-1">
-                    <img class="img-fluid rounded mb-4 mb-lg-0" src="" alt="..." style="width:100%" id="ImagenProducto_Producto" oncontextmenu="return false;" draggable="false"/>
+            <div class="cont-prod-individual col-lg-5">
+                <div class="col-lg-7 text-center" style="margin: auto;"><img class="img-fluid rounded mb-4 mb-lg-0"
+                        src="" alt="..." style="width:90%" id="ImagenEtiqueta_Producto" oncontextmenu="return false;"
+                        draggable="false" /></div>
+                <h1 class="font-weight-light" id="NombreDeProducto_Producto"></h1>
+                <p id="Descripcion_Producto"></p>
+                <div class="col-lg-10 text-center " style="margin: auto;">
+                <img class="img-fluid rounded mb-4 mb-lg-0" src="" alt="..." style="width:80%"
+                    id="ImagenBanner_Producto" oncontextmenu="return false;" draggable="false" />
                 </div>
-                <div class="cont-prod-individual  col-lg-5">
-                    <div class="col-lg-7 text-center" style="margin: auto;"><img class="img-fluid rounded mb-4 mb-lg-0" src="" alt="..." style="width:90%" id="ImagenEtiqueta_Producto" oncontextmenu="return false;" draggable="false"/></div>
-                    <h1 class="font-weight-light" id="NombreDeProducto_Producto"></h1>
-                    <p id="Descripcion_Producto"></p>
-
-                    
-                    <div class="col-lg-10 text-center " style="margin: auto;">
-                        
-                    <img class="img-fluid rounded mb-4 mb-lg-0" src="" alt="..." style="width:80%" id="ImagenBanner_Producto" oncontextmenu="return false;" draggable="false"/>
-                
-                    </div>
-                    <a id="BotonConoceMas_Producto" style="margin-top: 10%; background-color: #103C7B; border-color: #F5B94B;" class="btn btn-primary mb-4 mb-lg-0" href="#!">Conoce mas!</a>
-                </div>
+                <a id="BotonConoceMas_Producto"
+                    style="margin-top: 10%; background-color: #103C7B; border-color: #000000; text-align: center; color: #ffffff; font-weight: bold;"
+                    class="btn btn-primary mb-4 mb-lg-0" href="#!">Conoce mas!</a>
             </div>
-            <div class="card text-white my-5 py-4 text-center banner-title">
-                <div class="card-body"><p class="text-white m-0 title-art">Disfruta del autentico sabor</p></div>
+        </div>
+        <div class="card text-white my-5 py-4 text-center banner-title">
+            <div class="card-body">
+                <p class="text-white m-0 title-art">Disfruta del autentico sabor</p>
             </div>
-            <div class="row gx-4 gx-lg-5">
-                <div class="col-md-4 mb-5">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Tabla Nutrimental</h5>
-                            <div class="row">
+        </div>
+        <div class="row gx-4 gx-lg-5">
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Tabla Nutrimental</h5>
+                        <div class="row">
                             <div class="col-md-12">
-                            <p class="text-center" id="Porcion_Producto">Información nutrimental por cada 0 g.</p>
-                            <table class="table" id=TablaNutricional_Producto>
-                                <tbody>
-                                    <tr>
-                                    <!-- <th scope="row"></th> -->
-                                    <td>Contenido Energertico</td>
-                                    <td></td>
-                                    <td id="ContenidoEnergetico_Producto"></td>
-                                    </tr>
-                                    <tr>
-                                    <!--  <th scope="row"></th> -->
-                                    <td>Proteinas</td>
-                                    <td></td>
-                                    <td id="Proteina_Producto"></td>
-                                    </tr>
-                                    <tr>
-                                    <!--  <th scope="row"></th> -->
-                                    <td colspan="2">Grasas Totales</td>
-                                    <td id="GrasasTotales_Producto"></td>  
-                                    </tr>
-                                    <tr>
-                                    <!-- <th scope="row"></th> -->
-                                    <td><strong>Grasa Saturada</strong></td>
-                                    <td></td>
-                                    <td id="GrasasSaturadas_Producto"></td>
-                                    </tr>
-                                    <tr>
-                                    <!-- <th scope="row"></th> -->
-                                    <td>Grasa Trans</td>
-                                    <td></td>
-                                    <td id="GrasasTrans_Producto"></td>
-                                    </tr>
-                                    <tr>
-                                    <!-- <th scope="row"></th> -->
-                                    <td>Carbohidratos</td>
-                                    <td></td>
-                                    <td id="Carbohidratos_Producto"></td>
-                                    </tr>
-                                    <tr>
-                                    <!-- <th scope="row"></th> -->
-                                    <td>Azucares Añadidos</td>
-                                    <td></td>
-                                    <td id="AzucaresAnadidos_Producto"></td>
-                                    </tr>
-                                    <tr>
-                                    <!-- <th scope="row"></th> -->
-                                    <td><strong>Azucares Totales</strong></td>
-                                    <td></td>
-                                    <td id="AzucaresTotales_producto"></td>
-                                    </tr>
-                                    <tr>
-                                    <!-- <th scope="row"></th> -->
-                                    <td>Fibra Dietética</td>
-                                    <td></td>
-                                    <td id="FibraDietetica_Producto"></td>
-                                    </tr>
-                                    <tr>
-                                    <!-- <th scope="row"></th> -->
-                                    <td>Sodio</td>
-                                    <td></td>
-                                    <td id="Sodio_Producto"></td>
-                                    </tr>
-                                </tbody>
+                                <p class="text-center" id="Porcion_Producto">Información nutrimental por cada 0 g.</p>
+                                <table class="table" id=TablaNutricional_Producto>
+                                    <tbody>
+                                        <tr>
+                                            <!-- <th scope="row"></th> -->
+                                            <td>Contenido Energertico</td>
+                                            <td></td>
+                                            <td id="ContenidoEnergetico_Producto"></td>
+                                        </tr>
+                                        <tr>
+                                            <!--  <th scope="row"></th> -->
+                                            <td>Proteinas</td>
+                                            <td></td>
+                                            <td id="Proteina_Producto"></td>
+                                        </tr>
+                                        <tr>
+                                            <!--  <th scope="row"></th> -->
+                                            <td colspan="2">Grasas Totales</td>
+                                            <td id="GrasasTotales_Producto"></td>
+                                        </tr>
+                                        <tr>
+                                            <!-- <th scope="row"></th> -->
+                                            <td><strong>Grasa Saturada</strong></td>
+                                            <td></td>
+                                            <td id="GrasasSaturadas_Producto"></td>
+                                        </tr>
+                                        <tr>
+                                            <!-- <th scope="row"></th> -->
+                                            <td>Grasa Trans</td>
+                                            <td></td>
+                                            <td id="GrasasTrans_Producto"></td>
+                                        </tr>
+                                        <tr>
+                                            <!-- <th scope="row"></th> -->
+                                            <td>Carbohidratos</td>
+                                            <td></td>
+                                            <td id="Carbohidratos_Producto"></td>
+                                        </tr>
+                                        <tr>
+                                            <!-- <th scope="row"></th> -->
+                                            <td>Azucares Añadidos</td>
+                                            <td></td>
+                                            <td id="AzucaresAnadidos_Producto"></td>
+                                        </tr>
+                                        <tr>
+                                            <!-- <th scope="row"></th> -->
+                                            <td><strong>Azucares Totales</strong></td>
+                                            <td></td>
+                                            <td id="AzucaresTotales_producto"></td>
+                                        </tr>
+                                        <tr>
+                                            <!-- <th scope="row"></th> -->
+                                            <td>Fibra Dietética</td>
+                                            <td></td>
+                                            <td id="FibraDietetica_Producto"></td>
+                                        </tr>
+                                        <tr>
+                                            <!-- <th scope="row"></th> -->
+                                            <td>Sodio</td>
+                                            <td></td>
+                                            <td id="Sodio_Producto"></td>
+                                        </tr>
+                                    </tbody>
                                 </table>
-                                </div></div>
+                            </div>
                         </div>
-                        <div class="card-footer"></div>
                     </div>
+                  <!--   <div class="card-footer"></div> -->
                 </div>
-                <div class="col-md-4 mb-5">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h2 class="card-title ">Ingredientes</h2>
-                            <p class="" id="Ingredientes_Producto"></p>
-                            <p class="txt-progress-bar" id="Humedad_Producto"><strong>Humedad: 0</strong></p>
-                            <div class="progress">
-                            <div class="progress-bar progress-bar-striped" id="HumedadProgress_Producto" role="progressbar" style="width: 0%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <p class="txt-progress-bar" id="GrasaButiricaMin_Producto"><strong>Grasa Butírica min: 0</strong></p>
-                            <div class="progress">
-                            <div class="progress-bar progress-bar-striped bg-danger" id="GrasaButiricaMinProgress_Producto" role="progressbar" style="width: 0%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <p class="txt-progress-bar" id="ProteinaMin_Producto"><strong>Proteína min: 0</strong></p>
-                            <div class="progress">
-                            <div class="progress-bar progress-bar-striped bg-warning" id="ProteinaMinProgress_Producto"role="progressbar" style="width: 0%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+            </div>
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title ">Ingredientes</h2>
+                        <p class="" id="Ingredientes_Producto"></p>
+                        <p class="txt-progress-bar" id="Humedad_Producto"><strong>Humedad: 0</strong></p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" id="HumedadProgress_Producto"
+                                role="progressbar" style="width: 0%" aria-valuenow="10" aria-valuemin="0"
+                                aria-valuemax="100"></div>
                         </div>
-                        <div class="card-footer"></div>
+                        <p class="txt-progress-bar" id="GrasaButiricaMin_Producto"><strong>Grasa Butírica min:
+                                0</strong></p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-danger"
+                                id="GrasaButiricaMinProgress_Producto" role="progressbar" style="width: 0%"
+                                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <p class="txt-progress-bar" id="ProteinaMin_Producto"><strong>Proteína min: 0</strong></p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-warning" id="ProteinaMinProgress_Producto"
+                                role="progressbar" style="width: 0%" aria-valuenow="10" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
                     </div>
+                 <!--    <div class="card-footer"></div> -->
                 </div>
-                <div class="col-md-4 mb-5">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h2 class="card-title">Historia:</h2>
-                            <p class="card-text" id="Historia_Producto"></p>
-                        </div>
-                        <div class="card-footer"></div>
+            </div>
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Historia:</h2>
+                        <p class="card-text" id="Historia_Producto"></p>
                     </div>
+                  <!--   <div class="card-footer"></div> -->
                 </div>
             </div>
         </div>
-        </section>    
+    </div>
+</section>
 <div class="car-prod container">
-    <h1>Conoce Nuestras Presentaciones 🛍️</h1>
+    <h1 class="text-center">Disponibles en las siguientes presentaciones:</h1>
     <div class="carousel-container">
-        <button class="carousel-button prev" id="beforeTrack" >❮</button>
-        <button class="carousel-button next" id="afterTrack" >❯</button>
+        <button class="carousel-button prev" id="beforeTrack">❮</button>
+        <button class="carousel-button next" id="afterTrack">❯</button>
         <div class="carousel-track" id="carouselTrack">
             <div class="product-card">
                 <div class="product-image">
-                    <img src="<?= base_url ?>assets/carreras-uni.jpg"
-                        alt="Productos Pilarica"
-                        oncontextmenu="return false;"
-                        draggable="false">
+                    <img src="<?= base_url ?>assets/carreras-uni.jpg" alt="Productos Pilarica"
+                        oncontextmenu="return false;" draggable="false">
                     <span class="product-badge">Original</span>
                 </div>
             </div>
@@ -155,16 +163,3 @@
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
