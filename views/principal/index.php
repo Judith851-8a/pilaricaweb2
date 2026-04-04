@@ -38,7 +38,7 @@
         <div class="col-lg-6">
             <div class="text-center my-5">
                 <p class="info-tit-1-prin">Más de cuatro</p>
-                <p class="info-tit-2-prin"><span class="txt-dec">décadas</span></p>
+                <p class="info-tit-2-prin"><span class="txt-dec-0">décadas</span></p>
                 <p class="info-tit-3-prin">de sabor y tradición</p>
                 <p class="info-somos-3-prin">Somos una empresa mexicana que nace del amor por el queso artesanal. Desde
                     Ixtapaluca, Estado de México, llevamos más de cuatro décadas transformando tradición y experiencia
@@ -82,14 +82,15 @@
         </div>
     </div>
 </section>
-<section class="fondo stilo-section-prod-fav-3  text-center">
+<section class="fondo stilo-section-prod-fav-3 text-center">
     <div class="px-5 my-5 stilo-prod-fav-3">
         <div class="row">
             <div class="col-lg-12">
                 <!--  px-5 my-5 -->
-                <div class="mx-auto">
+                <div class="text-center my-5">  <!-- mx-auto -->
                     <!-- mb-5 mb-lg-0 -->
-                    <p class="subtit-prod-fav-3-1"><span class="txt-dec">Sabor con historia</span></p>
+                    <p class="subtit-prod-fav-3-1">
+                        <span class="txt-dec">Sabor con historia</span></p>
                     <p class="subtit-prod-fav-4">
                         <!-- px-5 my-5 -->
                         En La Pilarica cuidamos cada etapa del proceso para ofrecer productos

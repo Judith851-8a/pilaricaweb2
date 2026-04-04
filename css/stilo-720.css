@@ -68,14 +68,31 @@
       line-height: 1;
       text-align: center;
       margin-top: 15%;
-   /*    padding: 2px -15px 15px -15px; */
   }
-    .subtit-prod-fav-3-2{
+  .subtit-prod-fav-3-2{
       font-size: 15px;
       line-height: 1;
       text-align: center;
       margin-top: 15%;
-   /*    padding: 2px -15px 15px -15px; */
+  }
+  .cuadro-1{
+  padding-left: 0%;
+  padding-right: 0%;
+  }
+  .info-tit-3-prin{
+    font-size: 35px;
+    font-weight: 700;
+    color: #0F1E53;
+    text-align: center;
+    margin-top: -4%;
+    }
+  .txt-dec-0{
+    font-family: "Lato", sans-serif;
+    color: #0F1E53;
+    background-color: #F5B94B;
+    padding: -25px 15px ;
+    border-radius: 3px;
+    font-size: 35px;
   }
   .txt-dec{
     font-family: "Lato", sans-serif;
@@ -84,12 +101,22 @@
     padding: -25px 15px ;
     border-radius: 3px;
     font-size: 35px;
-    }
+  }
+  .txt-dec-1{
+    font-family: "Lato", sans-serif;
+    color: #0F1E53;
+    background-color: #F5B94B;
+/*     padding: -25px 15px ; */
+    border-radius: 3px;
+    font-size: 35px;
+  }
   .subtit-prod-fav-4{
     font-size: 25px;
       line-height: 1.2;
       text-align: justify;
       /* padding: 2px -15px 15px -15px; */
+      padding-left: 0%;
+      padding-right: 0%;
   }
   .subtit-prod-fav-6{
       font-size: 25px;
