@@ -168,6 +168,9 @@ new WOW().init();
                           <li class="nav-item">
                             <a class="nav-link" href="<?= base_url ?>Solo/index">Nosotros</a>
                         </li>
+                              <li class="nav-item">
+                            <a class="nav-link" href="<?= base_url ?>Contacto/index">Contacto</a>
+                        </li>
                      <!--    <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
