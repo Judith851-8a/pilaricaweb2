@@ -322,6 +322,7 @@ export function ColocarLosDatosDelProductoEnLaPagina(array) {
 
     //Botones
     const BotonConoseMas = document.getElementById("BotonConoceMas_Producto");
+    const BotonFichaTecnica= document.getElementById("BotonFichaTecnica_Producto");
 
 
     if(array.error){ // Por si falla la consulta
@@ -375,7 +376,8 @@ export function ColocarLosDatosDelProductoEnLaPagina(array) {
         proteinaMinProgress.style = `width: ${proteinaMinPorsentaje}%`;
 
         //Historia
-        historia.innerText = product.HISTORIA;
+        //historia.innerText = product.HISTORIA;
+        BotonFichaTecnica.href = `../${nombreLimpio}/index`;
 
         //Imagenes
 

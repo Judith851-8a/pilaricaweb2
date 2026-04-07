@@ -137,8 +137,11 @@
             <div class="col-md-4 mb-5">
                 <div class="card h-100">
                     <div class="card-body">
-                        <h2 class="card-title">Historia:</h2>
-                        <p class="card-text" id="Historia_Producto"></p>
+                        <h2 class="card-title">Ficha Tecnica:</h2>
+                        <!-- <p class="card-text" id="Historia_Producto"></p> -->
+                        <a id="BotonFichaTecnica_Producto"
+                            style="margin-top: 10%; background-color: #103C7B; border-color: #000000; text-align: center; color: #ffffff; font-weight: bold;"
+                            class="btn btn-primary mb-4 mb-lg-0" href="#!">Descargala Aqui!</a>
                     </div>
                   <!--   <div class="card-footer"></div> -->
                 </div>
