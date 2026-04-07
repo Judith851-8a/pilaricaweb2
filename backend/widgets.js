@@ -271,9 +271,9 @@ export function ColocarLosProductosEnLasTarjetas(widget,array){
                         <!-- Product name-->
                         <h5 class="fw-bolder">${product.PRODUCTO}</h5>
                         <!-- Product price-->
-                        <h6>Marca: ${product.MARCA}</h6>
+                        <!-- <h6>Marca: ${product.MARCA}</h6>
                         <h6>Presentacion: ${product.PRESENTACION} ${product.PRESENTACION_UNIDAD == 'undefined' ? '': product.PRESENTACION_UNIDAD}</h6>
-                        Categoria: ${product.CATEGORIA}
+                        <h6>Categoria: ${product.CATEGORIA} </h6> -->
                     </div>
                 </div>
                 <!-- Product actions-->
