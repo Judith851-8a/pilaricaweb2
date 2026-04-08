@@ -1216,14 +1216,13 @@ box-shadow: -5px 4px 50px -7px rgba(0, 0, 0, 0.51);
 .caj-prod {
 margin-top: 2%;
 margin-bottom: 2%;
-border-radius: 10px;
+border:none;
+/* border-radius: 10px; */
 padding: 20px;
+
 }
-.caj-prod-1 {
-box-shadow: -5px 4px 50px -7px rgba(0, 0, 0, 0.51);
--webkit-box-shadow: -5px 4px 50px -7px rgba(0, 0, 0, 0.51);
--moz-box-shadow: -5px 4px 50px -7px rgba(0, 0, 0, 0.51);
-}
+
+
 /* Desde aqui empieza el nuevo */
 .visuallyhidden {
 position: absolute;

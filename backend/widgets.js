@@ -256,13 +256,13 @@ export function ColocarLosProductosEnLasTarjetas(widget,array){
             imagenProducto = `https://pilarica.mx/php/backend.php?action=traerImagen&img=${imagenProducto}`;
         }
 
-        ///const imagenProducto = product.IMAGEN_ETIQUETA || '../assets/new-cheese/default.png';  // Si no tiene imagen, usar la predeterminada
+        ///const imagenProducto = product.IMAGEN_ETIQUETA || '../assets/new-cheese/default.png';  // Si no tiene imagen, usar la predeterminada le quitamos la clase card al div h-100 para quitar el espacio que deja la imagen aunque no se muestre
 
         const drop = document.createElement('div');
         drop.classList.add('caj-prod');
         drop.innerHTML= `<div class="row">
                             <div class="col mb-5">
-            <div class="card h-100 wow bounceInUp data-wow-duration="2s" data-wow-delay="2s">
+            <div class="h-100 wow bounceInUp data-wow-duration="2s" data-wow-delay="2s">
                 <!-- Product image-->
                 <img class="card-img-top" src="${imagenProducto}" alt="..." / oncontextmenu="return false;" draggable="false">
                 <!-- Product details-->
