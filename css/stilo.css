@@ -169,7 +169,10 @@ background-color:#FFF9F4 ;
 }
 .fondo-sucursales{
 background-color: #FFF9F4;
-margin-top: 7%;
+margin-top: 6%;
+margin-bottom: 0%;
+padding-bottom: 3%;
+
 }
 .title-info {
 font-family: "Lexend", bold;
