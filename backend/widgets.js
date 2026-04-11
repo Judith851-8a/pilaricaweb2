@@ -423,7 +423,7 @@ export function ColocarLosDatosDelProductoEnLaPagina(array) {
         }
 
         imagenProducto.src = imagenProductoDB;
-        imagenEtiqueta.src = imagenCategoriaDB;
+        //imagenEtiqueta.src = imagenCategoriaDB;
         imagenBanner.src = imagenGrupoDB;
         bannerProducto.style.backgroundImage = `url("${imagenBannerDB}")`;
     });

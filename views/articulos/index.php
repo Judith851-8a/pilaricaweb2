@@ -10,9 +10,9 @@
                     id="ImagenProducto_Producto" oncontextmenu="return false;" draggable="false" />
             </div>
             <div class="cont-prod-individual col-lg-5">
-                <div class="col-lg-7 text-center" style="margin: auto;"><img class="img-fluid rounded mb-4 mb-lg-0"
+                <!-- <div class="col-lg-7 text-center" style="margin: auto;"><img class="img-fluid rounded mb-4 mb-lg-0"
                         src="" alt="..." style="width:90%" id="ImagenEtiqueta_Producto" oncontextmenu="return false;"
-                        draggable="false" /></div>
+                        draggable="false" /></div> -->
                 <h1 class="font-weight-light" id="NombreDeProducto_Producto"></h1>
                 <p id="Descripcion_Producto"></p>
                 <div class="col-lg-10 text-center " style="margin: auto;">
