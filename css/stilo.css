@@ -723,14 +723,15 @@ font-weight: 500;
 color: #0F1E53;
 }
 .info-somos-2{
-min-width: 100%;
-width: 100%;
-max-width: 100%;
+min-width: 85%;
+width: 85%;
+max-width: 85%;
 height: 650px;
 position: relative;
 background-size: cover;
 background-repeat: no-repeat;
 padding-right: 15%;
+margin-top: 15%;
 }
 .info-somos-3{
 font-size: 35px;
@@ -776,7 +777,15 @@ font-size: 24px;
 font-weight: 600;
 color: #0F1E53;
 text-align: center;
-margin-top: 10%;
+margin-top: 26%;
+}
+.txt-dec-0{
+font-family: "Lato", sans-serif;
+color: #0F1E53;
+background-color: #F5B94B;
+padding: -25px 15px ;
+border-radius: 3px;
+font-size: 35px;
 }
 .info-tit-2-prin{
 font-family: "Lato", sans-serif;
@@ -811,9 +820,9 @@ font-size: 45spx;
 font-size: 20px;
 font-weight: 400;
 color: #0F1E53;
-text-align: justify;
+text-align: left;
 margin-top: 2%;
-padding-left: 30%;
+padding-left: 35%;
 padding-right: 30%;
 }
 .fondo-mision{
