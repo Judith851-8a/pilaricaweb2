@@ -263,22 +263,37 @@ export function ColocarLosProductosEnLasTarjetas(widget,array){
         drop.innerHTML= `<div class="row">
                             <div class="col mb-5">
             <div class="h-100 wow bounceInUp data-wow-duration="2s" data-wow-delay="2s">
-                <!-- Product image-->
+                <!-- Product image aqui hice cambios EDNI-->
+
+<a class="" href="../articulos/index?Id=${product.ID_PRODUCTO}">
+
                 <img class="card-img-top" src="${imagenProducto}" alt="..." / oncontextmenu="return false;" draggable="false">
+
+</a>
                 <!-- Product details-->
                 <div class="card-body p-4">
                     <div class="text-center">
+
+
                         <!-- Product name-->
-                        <h5 class="fw-bolder">${product.PRODUCTO}</h5>
+
+                        <p class="fw-bolder" style="font-size: 25px; color: #0F1E53; text-transform: uppercase;">${product.PRODUCTO}</p>
+
+
                         <!-- Product price-->
                         <!-- <h6>Marca: ${product.MARCA}</h6>
                         <h6>Presentacion: ${product.PRESENTACION} ${product.PRESENTACION_UNIDAD == 'undefined' ? '': product.PRESENTACION_UNIDAD}</h6>
                         <h6>Categoria: ${product.CATEGORIA} </h6> -->
                     </div>
                 </div>
-                <!-- Product actions-->
+
+
+                <!-- Product actions
+
                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="../articulos/index?Id=${product.ID_PRODUCTO}">Mas Info.</a></div>
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="../articulos/index?Id=${product.ID_PRODUCTO}">Mas Info.</a></div>-->
+
+
                 </div>
             </div>
         </div> </div>`;
